@@ -31,7 +31,7 @@ export default function CartPage() {
                 "font-bold text-[32px] md:text-[40px] text-black uppercase mb-5 md:mb-6",
               ])}
             >
-              your cart
+              seu carrinho
             </h2>
             <div className="flex flex-col lg:flex-row space-y-5 lg:space-y-0 lg:space-x-5 items-start">
               <div className="w-full p-3.5 md:px-6 flex-col space-y-4 md:space-y-6 rounded-[20px] border border-black/10">
@@ -46,7 +46,7 @@ export default function CartPage() {
               </div>
               <div className="w-full lg:max-w-[505px] p-5 md:px-6 flex-col space-y-4 md:space-y-6 rounded-[20px] border border-black/10">
                 <h6 className="text-xl md:text-2xl font-bold text-black">
-                  Order Summary
+                  Resumo do pedido
                 </h6>
                 <div className="flex flex-col space-y-5">
                   <div className="flex items-center justify-between">
@@ -55,7 +55,7 @@ export default function CartPage() {
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="md:text-xl text-black/60">
-                      Discount (-
+                      Desconto (-
                       {Math.round(
                         ((totalPrice - adjustedTotalPrice) / totalPrice) * 100
                       )}
@@ -67,7 +67,7 @@ export default function CartPage() {
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="md:text-xl text-black/60">
-                      Delivery Fee
+                      Frete
                     </span>
                     <span className="md:text-xl font-bold">Free</span>
                   </div>
@@ -95,14 +95,14 @@ export default function CartPage() {
                     type="button"
                     className="bg-black rounded-full w-full max-w-[119px] h-[48px]"
                   >
-                    Apply
+                    Aplicar
                   </Button>
                 </div>
                 <Button
                   type="button"
                   className="text-sm md:text-base font-medium bg-black rounded-full w-full py-4 h-[54px] md:h-[60px] group"
                 >
-                  Go to Checkout{" "}
+                  Va para o pagamento{" "}
                   <FaArrowRight className="text-xl ml-2 group-hover:translate-x-1 transition-all" />
                 </Button>
               </div>
@@ -111,9 +111,9 @@ export default function CartPage() {
         ) : (
           <div className="flex items-center flex-col text-gray-300 mt-32">
             <TbBasketExclamation strokeWidth={1} className="text-6xl" />
-            <span className="block mb-4">Your shopping cart is empty.</span>
+            <span className="block mb-4">Seu carrinho está vazio.</span>
             <Button className="rounded-full w-24" asChild>
-              <Link href="/shop">Shop</Link>
+              <Link href="/shop">Loja</Link>
             </Button>
           </div>
         )}

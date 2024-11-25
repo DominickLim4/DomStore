@@ -15,7 +15,7 @@ const SizeSelection = () => {
   return (
     <div className="flex flex-col">
       <span className="text-sm sm:text-base text-black/60 mb-4">
-        Choose Size
+        Escolha o tamanho
       </span>
       <div className="flex items-center flex-wrap lg:space-x-3">
         {["Small", "Medium", "Large", "X-Large"].map((size, index) => (

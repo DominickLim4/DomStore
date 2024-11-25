@@ -77,8 +77,8 @@ const Header = ({ data }: { data: Product }) => {
             )}
           </div>
           <p className="text-sm sm:text-base text-black/60 mb-5">
-            This graphic t-shirt which is perfect for any occasion. Crafted from
-            a soft and breathable fabric, it offers superior comfort and style.
+            Esta camisa é perfeita para qualquer ocasião. Feito de
+            um tecido macio e respirável, oferece conforto e estilo superiores.
           </p>
           <hr className="h-[1px] border-t-black/10 mb-5" />
           <ColorSelection />

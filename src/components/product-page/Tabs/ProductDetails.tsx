@@ -5,22 +5,22 @@ export type SpecItem = {
   value: string;
 };
 
-const specsData: SpecItem[] = [
+const specsData: SpecItem[] = [  
   {
-    label: " Material composition",
-    value: "100% Cotton",
+    "label": "Composição do material",
+    "value": "100% Algodão"
   },
   {
-    label: "Care instructions",
-    value: "Machine wash warm, tumble dry",
+    "label": "Instruções de cuidado",
+    "value": "Lavar na máquina com água morna, secar na máquina"
   },
   {
-    label: "Fit type",
-    value: "Classic Fit",
+    "label": "Tipo de ajuste",
+    "value": "Ajuste clássico"
   },
   {
-    label: "Pattern",
-    value: "Solid",
+    "label": "Padrão",
+    "value": "Liso"
   },
 ];
 

@@ -30,8 +30,8 @@ const MobileFilters = () => {
               <span className="font-bold text-black text-xl">Filters</span>
               <FiSliders className="text-2xl text-black/40" />
             </div>
-            <DrawerTitle className="hidden">filters</DrawerTitle>
-            <DrawerDescription className="hidden">filters</DrawerDescription>
+            <DrawerTitle className="hidden">filtros</DrawerTitle>
+            <DrawerDescription className="hidden">filtros</DrawerDescription>
           </DrawerHeader>
           <div className="max-h-[90%] overflow-y-auto w-full px-5 md:px-6 py-5 space-y-5 md:space-y-6">
             <Filters />
