@@ -21,15 +21,15 @@ const SizeSection = () => {
         <AccordionContent className="pt-4 pb-0">
           <div className="flex items-center flex-wrap">
             {[
-              "XX-Small",
-              "X-Small",
-              "Small",
-              "Medium",
-              "Large",
-              "X-Large",
-              "XX-Large",
-              "3X-Large",
-              "4X-Large",
+              "Muito Pequeno",
+              "Pequenin",
+              "Pequeno",
+              "Medio",
+              "Grande",
+              "Extra Grande",
+              "Gigante",
+              "Infinito",
+              "Celestial",
             ].map((size, index) => (
               <button
                 key={index}
